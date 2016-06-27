@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>YO</title>
+    <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="css/style.css" >
+
+</head>
+<body>
+<div class="wrapper">
+
+    <button class="btn-sign">
+        Start a Project
+    </button>
+
+    <div class="container-s">
+
+
+                <form  method="post" action="#" name="f" onsubmit="return validate(this)">
+                    WELCOME TO NESTOPIA
+
+                    <p id="getst">Get Started </p>
+
+                        <input type="text" name="fname" id="ffname" placeholder="Full Name" required onblur="validate(f)">
+
+
+                    <br>
+                    <input type="text" name="email" placeholder="Email ID" required  onblur="validate(f)"> <br>
+                    <p class="error"></p>
+
+
+                    <input type="password" name="pass" placeholder="Password" required> <br>
+                    <p class="error"></p>
+
+                    <input type="submit" value="Sign-up" class="btn">
+                    <hr>
+
+                    </hr>
+                    <p>
+                        Already have an account? <a href="#"> Login </a>
+                    </p>
+                </form>
+
+        </div> <!--END OF CONTAINER-S-->
+
+    </div> <!--END OF WRAPPER-->
+</body>
+</html>
