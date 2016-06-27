@@ -34,11 +34,11 @@ body {
   cursor: pointer; }
 
 .btn-sign:hover {
-  -webkit-transition: background-color 0.8s ease-out;
-  -moz-transition: background-color 0.8s ease-out;
-  -ms-transition: background-color 0.8s ease-out;
-  -o-transition: background-color 0.8s ease-out;
-  transition: background-color 0.8s ease-out;
+  -webkit-transition: background-color 0.5s ease-out;
+  -moz-transition: background-color 0.5s ease-out;
+  -ms-transition: background-color 0.5s ease-out;
+  -o-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
   background-color: #3a3365;
   border-color: steelblue; }
 
@@ -75,6 +75,7 @@ input:focus {
   cursor: pointer; }
 
 form {
+  float: left;
   text-align: justify;
   font-size: 1.6em;
   padding-top: 40px;
@@ -88,4 +89,15 @@ a {
   padding: 20px;
   font-family: 'Lato', sans-serif;
   font-size: 2.0em;
-  color: #000; }
+  color: #7f7f7f; }
+
+.left {
+  width: 50%;
+  float: left; }
+
+.right {
+  width: 50%;
+  float: right;
+  background-image: url("2.png");
+  height: 100%;
+  background-size: cover; }

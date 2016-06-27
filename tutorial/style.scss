@@ -1,0 +1,139 @@
+$btn-color:#4a4180;
+$formtext :grey;
+$bordercol:red;
+
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  margin:0;
+  font-size: 65.5%;
+  background-image: url("main.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; //to make it responsive
+
+}
+
+.wrapper {
+  margin: 0;
+  position: relative;
+
+}
+
+.btn-sign {
+  position: absolute;
+
+  left: 0;
+  right:0;
+  margin-right:auto;
+  margin-left: auto;
+
+  margin-top:25%;
+
+  height: 50px;
+  width: 180px;
+
+  border-radius: 2px;
+  background-color: $btn-color;
+  color: #ffffff;
+
+  border:none;
+  font-size: 1.6em;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-sign:hover {
+  -webkit-transition: background-color 0.5s ease-out;
+  -moz-transition: background-color 0.5s ease-out ;
+  -ms-transition: background-color 0.5s ease-out ;
+  -o-transition: background-color 0.5s ease-out ;
+  transition: background-color 0.5s ease-out ;
+  background-color: darken($btn-color, 8%);
+  border-color: steelblue;
+}
+
+.container-s
+{
+
+ 
+  position: absolute;
+  left: 0;
+  right:0;
+  margin-right:auto;
+  margin-left: auto;
+  margin-top:1%;
+
+  border-radius: 10px;
+  background-color: white;
+  overflow: hidden;
+  height: 580px;
+  width:760px;
+
+}
+
+//input tags
+input {
+  margin: 10px;
+  padding:20px;
+  background-color: white;
+  height: 50px;
+  width: 250px;
+  color: $formtext;
+  border-style: none none ridge none;
+  //border-bottom-color: $bordercol ;
+
+  display: block;
+}
+
+
+//to remove the blue highlight
+input:focus{outline: none;}
+
+
+.btn{
+  color: white;
+  background-color: #503580;
+  border: none;
+  cursor: pointer;
+}
+form{
+  float: left;
+
+  text-align:justify;
+  font-size: 1.6em;
+  padding-top: 40px;
+  padding-left:40px;
+  color:$formtext;
+}
+
+a{
+  color: darkblue;
+}
+
+#getst{
+
+  padding: 20px;
+  font-family: 'Lato', sans-serif;
+  font-size: 2.0em;
+
+  color: #7f7f7f;
+}
+
+.left{
+  width:50%;
+  float: left;
+}
+.right{
+  width:50%;
+  float: right;
+background-image: url("2.png");
+  height:100%;
+  background-size: cover;
+}
